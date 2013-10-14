@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+//	why the fuck does this work?
+//	$.getJSON('https://graph.facebook.com/zombies', function(results){	
+	$.getJSON('http://waytoosick.com/feed/', function(results){
+		document.write(results.featured[0].name);
+		
+	});
+	
+});
+
+</script>
+
+</head>
+<body>
+
+</body>
+</html>
