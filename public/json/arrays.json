@@ -1,0 +1,51 @@
+[
+    {
+        "featured": [
+            {
+                "title": "NCB - Sals Paradise 3D",
+                "postimg": "/img/records/sals-paradise-3d.jpg",
+                "chill_link": "http://www.amazon.com/Sals-Paradise/dp/B003JV4DYG"
+            },
+            {
+                "title": "NCB - Fixed Noise",
+                "postimg": "/img/records/fixed-noise.jpg",
+                "chill_link": "http://bundles.bittorrent.com/waytoosick/"
+            },
+            {
+                "endcap": "last"
+            }
+        ]
+    },
+    {
+        "normal": [
+            {
+                "title": "NCB - This is Lo-Fi",
+                "postimg": "/img/records/this-is-lo-fi.jpg",
+                "chill_link": "https://soundcloud.com/waytoosick/sets/this-is-lo-fi"
+            },
+            {
+                "title": "NCB & Friends - Greatest Hits",
+                "postimg": "/img/records/ncb-greatest-hits.jpg",
+                "chill_link": "https://soundcloud.com/waytoosick/sets/ncb-friends-greatest-hits"
+            },
+            {
+                "title": "DOT BOMB - Blissless",
+                "postimg": "/img/records/blissless.jpg",
+                "chill_link": "http://bundles.bittorrent.com/waytoosick/"
+            },
+            {
+                "title": "NCB - Sals Paradise BLUE",
+                "postimg": "/img/records/sals-paradise-blue.jpg",
+                "chill_link": "http://bundles.bittorrent.com/waytoosick/"
+            },
+            {
+                "title": "NCB - Sals Paradise RED",
+                "postimg": "/img/records/sals-paradise-red.jpg",
+                "chill_link": "http://bundles.bittorrent.com/waytoosick/"
+            },
+            {
+                "endcap": "last"
+            }
+        ]
+    }
+]
