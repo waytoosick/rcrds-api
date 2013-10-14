@@ -5,7 +5,7 @@
 $(document).ready(function(){
 	//http://waytoosick.com/rcrds-api/public/json/arrays.json
 	$.getJSON('http://waytoosick.com/rcrds-api/public/json/arrays.json', function(results){
-		document.write(results.records.featured[0].name);
+		document.write(results.records[1].featured[1].name);
 	});
 	
 });
