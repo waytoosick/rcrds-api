@@ -4,7 +4,7 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	//http://waytoosick.com/rcrds-api/public/json/arrays.json
-	$.getJSON('http://waytoosick.com/rcrds-api/public/json/arrays.json', function(results){
+	$.getJSON('http://waytoosick.com/feed/', function(results){
 		document.write(results.records[1].normal[1].title);
 	});
 	
