@@ -4,8 +4,6 @@
 <script type="text/javascript">
 $(document).ready(function(){
 
-//	why the fuck does this work?
-//	$.getJSON('https://graph.facebook.com/zombies', function(results){	
 	$.getJSON('http://waytoosick.com/feed/', function(results){
 		document.write(results.featured[0].name);
 		
