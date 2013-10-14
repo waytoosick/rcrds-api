@@ -4,9 +4,8 @@
 <script type="text/javascript">
 $(document).ready(function(){
 
-	$.getJSON('http://waytoosick.com/feed/', function(results){
+	$.getJSON('http://waytoosick.com/rcrds-api/public/json/array.json', function(results){
 		document.write(results.featured[0].name);
-		
 	});
 	
 });
