@@ -3,9 +3,9 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-
+	//http://waytoosick.com/rcrds-api/public/json/arrays.json
 	$.getJSON('http://waytoosick.com/rcrds-api/public/json/arrays.json', function(results){
-		document.write(results.records.featured[0].name);
+		document.write(results.records[0].featured[0].name);
 	});
 	
 });
