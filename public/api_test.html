@@ -1,0 +1,40 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+//	why the fuck does this work?
+//	$.getJSON('https://graph.facebook.com/zombies', function(results){	
+//	$.getJSON('http://waytoosick.com/feed/', function(results){
+//		document.write(results.records);
+		
+//	});
+
+//$.get('https://jsonp.nodejitsu.com/?url=http://jsonview.com/example.json', function(data){
+//  alert('pretty awesome, eh? ' + data.awesome);
+//});
+
+
+$.getJSON('http://waytoosick.com/?callback=?&url=http://waytoosick.com/feed/', function(data){
+  alert('fake AJAX! ' + data.records);
+});
+
+
+
+
+
+
+
+	
+});
+
+
+</script>
+</head>
+<body>
+
+
+</body>
+</html>
